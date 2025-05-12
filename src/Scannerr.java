@@ -1,4 +1,6 @@
-public class Scanner {
+import java.util.Scanner;
+
+public class Scannerr {
     Scanner scanner = new Scanner(System.in);
 
     public void readNameAndAge(){
@@ -12,7 +14,7 @@ public class Scanner {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner();
+        Scannerr scanner = new Scannerr();
         scanner.readNameAndAge();
     }
 }
